@@ -61,13 +61,14 @@ def main():
     try:
         url = sys.argv[1]
         fileproxy = sys.argv[2]
-        webbrowser.open("https://t.me/IRCoders")
+        webbrowser.open("https://www.facebook.com/ByBafrali1")
+        webbrowser.open ("https://twitter.com/VolvexJava")
 
     except:
         print_logo()
         print m + '\t--------------------------------------------------------'
         print '\t' + y + '[' + r + '!' + y + '] ' + g + 'python ' + w + 'alexa.py ' + g + 'url Proxy_List.txt'
-        print '\t' + y + '[' + r + '!' + y + '] ' + m + 'Example -> ' + g + 'python ' + w + 'alexa.py ' + g + 'https://iraniancoders.ir list.txt'
+        print '\t' + y + '[' + r + '!' + y + '] ' + m + 'Example -> ' + g + 'python ' + w + 'alexa.py ' + g + 'https://darkizm.info list.txt'
         sys.exit()
 
     if url.startswith("http://"):
